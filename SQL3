@@ -1,0 +1,19 @@
+### Navigate to the directory with your sqlite3 database
+
+sqlite3 nameofdatabase.sqlite
+
+#To see the tables stored in the database
+
+.tables;
+
+#To create the file that will store the exported table information
+.output discrete.txt
+
+#To fill the newly created file with the information stored in the table
+
+select * from discrete;
+
+#Repeat the above steps for each table in your database.
+
+#To exit the sqlite3 program
+.exit
