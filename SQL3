@@ -4,7 +4,7 @@ sqlite3 nameofdatabase.sqlite
 
 #To see the tables stored in the database
 
-.tables;
+.tables
 
 #To create the file that will store the exported table information
 .output discrete.txt
